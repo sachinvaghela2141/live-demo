@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+
+}
+
+.nav-bar {
+
+    height: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+    /* border: 2px solid red; */
+
+
+    display: flex;
+
+}
+
+.nav-bar img {
+    /* width: 160px; */
+
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.nav-bar ul {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 350px;
+    gap: 50px;
+
+}
+
+.nav-bar ul li {
+
+    font-size: 20px;
+    list-style: none;
+
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+
+    color: black;
+}
+
+.nav-bar ul li a:hover {
+
+    color: white;
+    background-color: orangered;
+    padding: 15px 25px;
+    border-radius: 25px;
+    transition: .5s linear;
+
+}
+
+
+
+.fa-user {
+    font-size: 30px;
+    margin-left: 120px;
+
+
+
+}
+
+.fa-magnifying-glass {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+/* --------------------------.first-container---------------------------- */
+.first-container {
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+
+    display: flex;
+    align-items: center;
+
+}
+
+.first-left-section {
+
+    width: 40%;
+    height: 100vh;
+    /* border: 4px solid black; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+.first-left-section img {
+
+    width: 200px;
+    /* margin-left: -180px; */
+    margin-top: -70px;
+}
+
+.first-left-section h1 {
+    font-size: 80px;
+    width: 100px;
+    margin-top: 40px;
+    text-align: start;
+
+    /* margin-left: -280px; */
+
+
+}
+
+.first-left-section h2 {
+    margin-top: 50px;
+    /* margin-left:-200px ; */
+
+}
+
+.icon-section {}
+
+.fa-arrow-left {
+
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-color: rgb(68, 68, 177);
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 90px;
+
+
+}
+
+.fa-arrow-right {
+
+    border-radius: 50%;
+    background-color: rgb(68, 68, 177);
+    font-size: 20px;
+    padding: 30px;
+
+
+}
+
+.first-right-section img {
+
+    width: 750px;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+/* ---------------------------------------------second-container----------------------------- */
+
+.second-container {
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    /* border: 2px solid red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.second-container h1 {
+
+    font-size: 50px;
+}
+
+.second-container h2 {
+
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+
+.second-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+    margin-top: 50px;
+
+
+}
+
+.second-bottom-card-1 {
+
+    height: 380px;
+    width: 320px;
+    /* border: 2px solid red; */
+    background-color: orangered;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.second-bottom-card-1img {
+    height: 100px;
+    width: 80px;
+
+
+}
+
+.second-bottom-card-1 h1 {
+    font-size: 30px;
+    color: white;
+
+}
+
+.second-bottom-card-1 h2 {
+    text-align: center;
+    color: white;
+}
+
+
+.second-bottom-card-2 {
+
+    height: 380px;
+    width: 320px;
+    /* border: 2px solid red; */
+    background-color: rgb(64, 64, 194);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.second-bottom-card-2 img {
+    height: 100px;
+    width: 80px;
+}
+
+.second-bottom-card-2 h1 {
+    font-size: 30px;
+    color: white;
+
+}
+
+.second-bottom-card-2 h2 {
+    text-align: center;
+    color: white;
+}
+
+.second-bottom-card-3 {
+
+    height: 380px;
+    width: 320px;
+    /* border: 2px solid red; */
+    background-color: orangered;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.second-bottom-card-3img {
+    height: 100px;
+    width: 80px;
+}
+
+.second-bottom-card-3 h1 {
+    font-size: 30px;
+    color: white;
+
+}
+
+.second-bottom-card-3 h2 {
+    text-align: center;
+    color: white;
+}
+
+/*------------------------------------------------------- third-container------------------------------------------------------ */
+.third-container {
+    height: 70vh;
+    width: 100%;
+    background-color: blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.third-left-section {
+
+    height: 70vh;
+    width: 50%;
+
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 80px;
+
+
+}
+
+.third-left-section h1 {
+
+    font-size: 55px;
+    color: white;
+    width: 100px;
+    padding-left: 20px;
+
+
+
+}
+
+.third-left-section h2 {
+
+    font-size: 20px;
+    color: white;
+    width: 600px;
+
+    font-weight: 100;
+    padding-left: 20px;
+
+
+
+}
+
+.third-left-section h3 {
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.third-right-section {
+
+    height: 70vh;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-right-section img {
+
+    width: 70%;
+    margin-top: 50px;
+}
+
+/* ------------------------- fourth-container------------------------------------ */
+.fourth-container {
+    height: 120vh;
+    width: 100%;
+    
+    border: 5px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.fourth-container h1 {
+    font-size: 50px;
+
+
+}
+
+.fourth-container h2 {
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+
+
+.fourth-container-card {
+    height: 520px;
+    width: 400px;
+
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
+
+
+}
+
+.fourth-container-card img {
+
+    /* height: 520px; */
+    /* object-fit: cover; */
+    width: 400px;
+    
+}
+
